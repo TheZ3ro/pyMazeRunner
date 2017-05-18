@@ -14,6 +14,8 @@ Instead of [Ascii-Art-Maze-Solver](https://github.com/asinck/Ascii-Art-Maze-Solv
  - returns a string of coordinates as a solution
  - can convert a non-1-char maze to 1-char maze (to a certain degree)
 
+![screen.png](https://github.com/TheZ3ro/pyMazeRunner/raw/master/screen.png)
+
 ## Usage
 
 If your maze is already in the default format (wall = `#`, path = ` `, start = `A`, goal = `B`) you can simply run:
@@ -34,7 +36,7 @@ MazeSolver(maze).solve()
 maze.drawMaze()
 ```
 
-For more example see the [tests.py]() file
+For more example see the [tests.py](https://github.com/TheZ3ro/pyMazeRunner/blob/master/tests.py) file
 
 ## 1-char format
 
